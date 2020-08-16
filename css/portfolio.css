@@ -11,8 +11,8 @@
   color: var(--primary-bg-color);
 }
 
-/* Галлерея */
+/* Портфолио */
 
-.gallery .title {
+.portfolio .title {
   color: var(--second-text-color);
 }
