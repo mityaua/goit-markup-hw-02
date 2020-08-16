@@ -1,0 +1,18 @@
+/* Секция Hero */
+
+.hero {
+  background-color: var(--second-bg-color);
+  color: var(--primary-bg-color);
+}
+
+/* Секции */
+
+.section-title {
+  color: var(--second-text-color);
+}
+
+/* Секция команды */
+
+.team {
+  background-color: #f5f4fa;
+}

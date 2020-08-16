@@ -1,0 +1,103 @@
+:root {
+  --primary-text-color: #757575;
+  --second-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --second-bg-color: #2f303a;
+}
+
+/* цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* акцент #2196F3 */
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Логотип в хедере */
+
+.logo {
+  color: var(--second-text-color);
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+/* Меню в хедере */
+
+.site-nav .link {
+  color: var(--second-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Контакты в хедере */
+
+.nav-contacts .link {
+  color: var(--primary-text-color);
+}
+
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--second-bg-color);
+  color: var(--primary-bg-color);
+}
+
+/* Лого в футере */
+
+.footer-logo {
+  color: var(--primary-bg-color);
+}
+
+.footer-logo span {
+  color: var(--accent-color);
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--accent-color);
+}
+
+/* Контакты в футере */
+
+.footer-adress .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress .link:hover,
+.footer-adress .link:focus {
+  color: var(--accent-color);
+}
+
+/* Button */
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
