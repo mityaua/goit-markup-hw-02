@@ -1,0 +1,18 @@
+/* Переключатели */
+
+.filters .item {
+  background-color: #f5f4fa;
+  color: var(--second-text-color);
+}
+
+.filters .item:hover,
+.filters .item:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+/* Галлерея */
+
+.gallery .title {
+  color: var(--second-text-color);
+}
