@@ -26,28 +26,9 @@
   text-transform: uppercase;
 }
 
-.features-text {
-  font-size: 14px;
-  line-height: 1.71;
-}
+/* Тайтлы Чем мы занимаемся + фотографии команды */
 
-/* Чем мы занимаемся */
-
-.photos-title {
-  color: var(--second-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-}
-
-/* Секция команды */
-
-.team {
-  background-color: #f5f4fa;
-}
-
+.photos-title,
 .team-title {
   color: var(--second-text-color);
 
@@ -57,7 +38,13 @@
   text-align: center;
 }
 
-.name-title {
+/* Секция с фотографиями команды */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-name {
   color: var(--second-text-color);
 
   font-weight: 500;

@@ -18,6 +18,8 @@ body {
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .list {
@@ -94,7 +96,11 @@ body {
 
 .footer-logo {
   color: var(--primary-bg-color);
+
   font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .footer-logo span {
@@ -108,8 +114,15 @@ body {
 
 /* Контакты в футере */
 
+.footer-adress {
+  font-style: normal;
+  font-size: 14px;
+}
+
 .footer-adress .link {
   color: rgba(255, 255, 255, 0.6);
+
+  
 }
 
 .footer-adress .link:hover,
@@ -122,7 +135,7 @@ body {
 .button {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
-  
+
   font-family: inherit;
 
   font-weight: 700;
