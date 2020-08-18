@@ -26,10 +26,6 @@ body {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
-}
-
 /* Логотип в хедере */
 
 .logo {
@@ -38,6 +34,7 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo span {
@@ -58,6 +55,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -78,6 +76,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .nav-contacts .link:hover,
@@ -101,6 +100,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .footer-logo span {
@@ -122,7 +122,7 @@ body {
 .footer-adress .link {
   color: rgba(255, 255, 255, 0.6);
 
-  
+  text-decoration: none;
 }
 
 .footer-adress .link:hover,
@@ -137,7 +137,6 @@ body {
   color: var(--primary-bg-color);
 
   font-family: inherit;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;

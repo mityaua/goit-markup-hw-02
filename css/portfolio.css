@@ -3,6 +3,12 @@
 .filters .item {
   background-color: #f5f4fa;
   color: var(--second-text-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 
 .filters .item:hover,
@@ -15,12 +21,20 @@
 
 .portfolio-title {
   color: var(--second-text-color);
-}
 
-.portfolio-link {
-  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-text {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.portfolio-link {
+  text-decoration: none;
 }
