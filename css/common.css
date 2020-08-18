@@ -5,14 +5,69 @@
   color: var(--primary-bg-color);
 }
 
-/* Секции */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 
-.section-title {
+/* Преимущества */
+
+.features-title {
   color: var(--second-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  /* letter-spacing: 0.03em; */
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+
+.photos-title {
+  color: var(--second-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Секция команды */
 
 .team {
   background-color: #f5f4fa;
+}
+
+.team-title {
+  color: var(--second-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.name-title {
+  color: var(--second-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
