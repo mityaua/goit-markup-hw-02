@@ -13,6 +13,14 @@
 
 /* Портфолио */
 
-.portfolio .title {
+.portfolio-title {
   color: var(--second-text-color);
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+.portfolio-text {
+  color: var(--primary-text-color);
 }
