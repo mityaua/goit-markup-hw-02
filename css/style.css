@@ -34,6 +34,7 @@ body {
   color: var(--second-text-color);
 
   font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -132,8 +133,7 @@ body {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
-  /* letter-spacing: 0.03em; */
+  line-height: 1.14;  
   text-transform: uppercase;
 }
 
