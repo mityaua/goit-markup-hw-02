@@ -1,7 +1,9 @@
 /* Переключатели */
 
 .filters .item {
-  background-color: #f5f4fa;
+  border: none;
+
+  background-color: var(--additional-background-color);
   color: var(--second-text-color);
 
   font-family: inherit;

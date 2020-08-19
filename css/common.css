@@ -17,6 +17,8 @@
 /* Button */
 
 .button-order {
+  border: none;
+
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 
@@ -56,7 +58,7 @@
 /* Секция с фотографиями команды */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--additional-background-color);
 }
 
 .team-name {

@@ -4,12 +4,14 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --second-bg-color: #2f303a;
+  --additional-background-color: #f5f4fa;
 }
 
 /* цвет основного текста #757575 */
 /* вторичный цвет текста #212121 */
 /* цвет фона #FFFFFF */
 /* вторичный цвет фона #2f303a */
+/* дополнительный цвет фона #f5f4fa */
 /* акцент #2196F3 */
 
 body {
