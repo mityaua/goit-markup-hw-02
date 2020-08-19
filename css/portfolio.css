@@ -1,7 +1,8 @@
 /* Переключатели */
 
 .filters .item {
-  border: none;
+  border-style: none;
+  border-radius: 4px;
 
   background-color: var(--additional-background-color);
   color: var(--second-text-color);
@@ -15,8 +16,12 @@
 
 .filters .item:hover,
 .filters .item:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
+
+  cursor: pointer;
 }
 
 /* Портфолио */
