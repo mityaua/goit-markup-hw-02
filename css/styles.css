@@ -44,10 +44,10 @@ body {
   color: var(--accent-color);
 }
 
-.logo:hover,
+/* .logo:hover,
 .logo:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Меню в хедере */
 
@@ -62,7 +62,9 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
   color: var(--accent-color);
 }
 
@@ -80,11 +82,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-}
-
-.nav-contacts .link:hover,
-.nav-contacts .link:focus {
-  color: var(--accent-color);
 }
 
 /* Секция Hero */
@@ -133,7 +130,7 @@ body {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;  
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -242,10 +239,10 @@ body {
   color: var(--accent-color);
 }
 
-.footer-logo:hover,
+/* .footer-logo:hover,
 .footer-logo:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Контакты в футере */
 
